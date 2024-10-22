@@ -1,4 +1,4 @@
 Az input problémája, hogy a label továbbra is látható marad kitöltött állapotban.
 A felhasználó összekeverheti a kitöltött adatot és a labelt.
 Ez nehezen olvashatóvá teszi az input tartalmát, és nem világos, hogy mi a beírt érték és mi a label.
-Jó megoldás lehet, hogyha a label vagy eltánik teljesen, vagy máshol jelenik meg, pl a mező fölött.
+Jó megoldás lehet, hogyha a label vagy eltűnik teljesen, vagy máshol jelenik meg, pl a mező fölött.

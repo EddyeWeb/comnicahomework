@@ -7,7 +7,9 @@ function App() {
     <div className="min-h-screen bg-[#CDEBE5]">
       <div className="grid-container flex flex-col md:flex-row">
         <div className="p-4 flex flex-col">
-          <img src={logo} alt="Logo" className="w-24 h-auto mb-4 self-start" />
+          <a href="/">
+            <img src={logo} alt="Logo" className="w-24 h-auto mb-4 self-start" />
+          </a>
           <div className="flex flex-col lg:flex-row items-center justify-center flex-grow">
             <div>
               <h1>Comnica Signature</h1>

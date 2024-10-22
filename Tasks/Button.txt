@@ -1,0 +1,19 @@
+1. CSS Specifikusság
+Lehet, hogy van egy másik CSS szabály, ami felülírja a gombod stílusait, vagy az események kezelését.
+Megnézhetjük, hogy van-e !important deklaráció, ami felülírhatja a stílusokat.
+Ha a css fájlok több különböző forrásból származnak, lehet, hogy egy erősebb specifikussággal rendelkező szabály felülírja a gomb eseményeit.
+
+2. Külső elem blokkolja az eseményeket
+Elképzelhető, hogy van egy átlátszó/nem látható másik HTML elem a gomb fölött, amely elkapja az egérkattintásokat vagy hover eseményeket
+
+3. JavaScript hibák
+Ha a hover eseményt JavaScript kezeli, lehet, hogy egy JavaScript hiba meggátolja az események futását.
+
+4. Pointer-events beállítás
+Nézzük meg, hogy nincs-e véletlenül a gomb vagy egy szülő elem CSS szabályai között pointer-events: none;
+
+5. Nem megfelelő HTML szerkezet
+Nem zárt tag-ek vagy helytelen HTML hierarchia okozhatnak olyan problémát, hogy a gomb nem reagál az eseményekre.
+
+7. Blokkolt események
+Nincs olyan JavaScript vagy CSS tulajdonság, ami megakadályozza az eseménykezelők lefutását?
